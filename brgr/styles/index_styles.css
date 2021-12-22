@@ -1,0 +1,179 @@
+/* Page Styles  */
+
+
+.messageBox {
+
+    flex: 1 0 0;
+    width: 720px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: m;
+    position: relative;
+
+}
+
+
+.messageContent {
+
+    padding-left: 3em;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+
+}
+
+
+#eventBooking .flexContainer,  #holidaySpecials .flexContainer{
+    
+    display: inline-block;
+    align-items: center;
+
+}
+
+
+
+.pictureBox {
+
+    flex: 1 0 0;
+    width: 720px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.pictureBox img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.boxTitle {
+
+    font-size: 48px;
+    width: 540px;
+    height: 120px;
+    margin: 0;
+
+}
+
+
+.boxText{
+
+    font-size: 26px;
+    width: 540px;
+    height: auto;
+    font-weight: 300;
+    padding: 1.5em 0;
+    margin-top: 0;
+
+}
+
+
+
+
+#holidaySpecials .pictureBox {
+
+    order: -1;
+
+}
+
+
+#favouriteItems {
+
+    background-color: #F8F2E4;
+
+}
+
+
+/* Favourite Styles */
+
+#favouriteItems {
+
+    text-align: center;
+
+}
+
+
+#favouriteItems .flexContainer {
+
+    justify-content: space-around;
+
+}
+
+
+#favouriteItems h2 {
+
+    font-size: 48px;
+    flex: 1 0 0;
+    margin: 0 1.5em 1.5em 1.5em ;
+    padding-top: 1.5em;
+}
+
+
+.favPic {
+
+    height: 270px;
+    width: 270px;
+    border: 10px solid #D2C443;
+
+}
+
+
+.favBurger h3 {
+
+    font-size: 36px;
+
+}
+
+
+.favBurger p {
+
+    font-size: 24px;
+    width: 400px;
+    height: auto;
+    margin-bottom: 2em;
+
+}
+
+
+
+/* Newsletter Styles */
+
+
+
+#newsletter{
+
+    text-align: center;
+
+}
+
+#newsletter h2{
+
+    font-size: 48px;
+
+}
+
+#newsletter p{
+
+    font-size: 24px;
+
+}
+
+#inputBar{
+    margin-bottom: 5em;
+    padding: 15px;
+}
+
+
+#email {
+    font-weight: lighter;
+    font-size: 26px;
+    background-color: #E5E5E5;
+    border-radius: 43.5px;
+    width: 100%;
+    max-width: 880px;
+    padding: 20px 35px;
+    border: none;
+    margin: 0 1em .5em 0;
+}

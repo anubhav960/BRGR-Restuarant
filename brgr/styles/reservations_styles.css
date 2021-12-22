@@ -1,0 +1,91 @@
+label, input {
+
+    display: block;
+
+}
+
+label {
+
+    margin-bottom: 1em;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#reservationForm {
+    /* border: 1px solid black; */
+    width: auto;
+    margin: 3em 0;
+
+}
+
+#mainContent {
+
+    justify-content: center;
+}
+
+#fNameGroup, #lNameGroup, #dateGroup, #timeGroup {
+
+    display: inline-block;
+
+}
+
+#fullNameGroup {
+
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+
+#timeGroup {
+
+    margin-left: 2em;
+
+}
+
+.inputGroup + .inputGroup {
+
+    margin-top: 3em;
+
+}
+
+form {
+
+    margin: 2em 0;
+
+}
+
+textarea {
+
+    width: 100%;
+    resize: none;
+}
+
+.btn {
+
+    margin-top: 2em;
+
+}
+
+.inputField {
+    font-weight: lighter;
+    font-size: 26px;
+    background-color: #E5E5E5;
+    border-radius: 43.5px;
+    padding: 20px 35px;
+    border: none;
+}
+
+#date {
+
+    width: 11em;
+
+}
+
+#guests {
+
+    width: 4.5em;
+
+}
+

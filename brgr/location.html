@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset = "utf-8">
+        <title>BRGR | Location</title>
+        <meta name="description" content="BRGR's Homepage">
+        <link rel="stylesheet" href="./styles/global_styles.css">
+        <!-- YOUR CUSTOM STYLESHEET HERE -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/locations.css">
+    
+        <!-- YOUR CUSTOME JS HERE -->
+        <script src="./js/locations.js"></script>
+        <script src="https://kit.fontawesome.com/f41eb439fa.js" crossorigin="anonymous"></script>
+
+    </head>
+     
+    <body>
+        
+        <!-- HEADER -->
+        <header>
+
+            <div id="headerLogo">
+
+                <a href="./index.html" id="headerLogo" class="logo">BRGR</a>
+
+            </div>
+
+            <nav id = "topMenu" aria-label="">
+
+                <!-- MAKE YOUR SCRIPT NAME MATCHES THE MENU -->
+
+                <ul class="flexContainer">
+                    <li class="topLink"><a href="./menu.html">Menu</a></li>
+                    <li class="topLink"><a href="./daily_specials.html">Daily Specials</a></li>
+                    <li class="topLink"><a href="./reservations.html">Reservations</a></li>
+                    <li class="topLink"><a href="./about_us.html">About Us</a></li>
+                    <li class="topLink"><a href="./location.html">Location</a></li>
+                    <li class="topLink"><a href="./careers.html">Careers</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+
+
+        <!-- MAIN CONTENT GOES HERE -->
+        <main>
+
+            <div id="pageTitle">
+
+                <h1>Our Location</h1>
+
+                <p>Visit us in the heart of downtown Toronto</p>
+
+            </div> 
+
+            <!-- PASTE YOUR UNIQUE CONTENT -->
+            <div class="locations-content">
+                
+                
+                <img class="location_image" src="./images/location2.jpg" alt="A view of our restaurant" style="width:650px;height:450px;">
+                <p class="address">268 King St W, Toronto, ON M5V1H8</p>
+                <p class="hours">Open everyday from 11am - 11pm</p>
+                
+                <div class="map-container flexContainer">
+                    <iframe id="map" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.0501913337944!2d-79.38995258450245!3d43.647124079121525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d10be771eb%3A0xcc32784cf75ee9ed!2s268%20King%20St%20W%2C%20Toronto%2C%20ON%20M5V%201H8!5e0!3m2!1sen!2sca!4v1638293409564!5m2!1sen!2sca"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <a href ="https://www.google.com/maps/dir//286+King+St+W,+Toronto,+ON/@43.6470359,-79.3908605,17z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x882b34d10361aae5:0x2743e80752657716!2m2!1d-79.3886718!2d43.647032!3e0">       
+                    <button class="btn" id = "btn">Directions</button></a>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- END OF UNIQUE CONTENT -->
+        </main>
+
+
+        <footer>
+
+            <div class="flexContainer">
+
+                <div id="footerLogo">
+
+                    <p class="logo">BRGR</p>
+                
+                </div>
+
+                <div id = "address" class="footBox">
+
+                    <p>268 King St W <br> Toronto, ON M5V 1H8</p>
+                    <p>416-096-3366</p>
+
+                    <iframe loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ63HnC9E0K4gR7ele90x4Msw&key=AIzaSyCICoXNcqTvYr3RE3pgSwsf0e7JJEWIxaA"></iframe>
+
+                </div>
+
+                <div id = "hours" class="footBox">
+
+                    <p>Hours of Operation</p>
+
+                    <div id = "schedule">
+                        <p>Sunday - 11:00 AM to 11:00 PM</p>
+                        <p>Monday - 11:00 AM to 11:00 PM</p>
+                        <p>Tuesday - 11:00 AM to 11:00 PM</p>
+                        <p>Wednesday - 11:00 AM to 11:00 PM</p>
+                        <p>Thursday - 11:00 AM to 11:00 PM</p>
+                        <p>Friday - 11:00 AM to 11:00 PM</p>
+                        <p>Saturday - 11:00 AM to 11:00 PM</p>
+                    </div>
+
+                </div>
+
+                <div class="footBox">
+                    <p>Connect with Us</p>
+                    <a href="https://www.facebook.com" class="icon"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/" class="icon"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://www.twitter.com" class="icon"><i class="fab fa-twitter-square"></i></a>
+                </div>
+
+
+
+
+            </div>
+
+            <!-- FOOTER -->
+            <nav id = "bottomMenu" aria-label = "bottomMenu" class="footBox">
+
+                <ul class="flexContainer">
+
+                    <li class="bottomLink"><a href="#">Copyright</a></li>
+                    <li class="bottomLink"><a href="#" >Privacy</a></li>
+                    <li class="bottomLink"><a href="#" >Terms of Use</a></li>
+
+                </ul>
+
+            </nav>
+
+        </footer>
+
+    </body>
+
+</html>

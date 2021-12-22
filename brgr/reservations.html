@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset = "utf-8">
+        <title>BRGR | Reservations</title>
+        <meta name="description" content="BRGR's Homepage">
+        <link rel="stylesheet" href="./styles/global_styles.css">
+        <link rel="stylesheet" href="./styles/reservations_styles.css">
+        <script src="https://kit.fontawesome.com/f41eb439fa.js" crossorigin="anonymous"></script>
+
+    </head>
+     
+    <body>
+        
+        <!-- HEADER -->
+        <header>
+
+            <div id="headerLogo">
+
+                <a href="./index.html" id="headerLogo" class="logo">BRGR</a>
+
+            </div>
+
+            <nav id = "topMenu" aria-label="">
+
+                <!-- MAKE YOUR SCRIPT NAME MATCHES THE MENU -->
+
+                <ul class="flexContainer">
+                    <li class="topLink"><a href="./menu.html">Menu</a></li>
+                    <li class="topLink"><a href="./daily_specials.html">Daily Specials</a></li>
+                    <li class="topLink"><a href="./reservations.html">Reservations</a></li>
+                    <li class="topLink"><a href="./about_us.html">About Us</a></li>
+                    <li class="topLink"><a href="./location.html">Location</a></li>
+                    <li class="topLink"><a href="./careers.html">Careers</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+
+
+        <!-- MAIN CONTENT GOES HERE -->
+        <main>
+
+            <div id="pageTitle">
+
+                <h1>Reservations</h1>
+
+                <p>Book your next visit</h2>
+
+            </div> 
+
+            <!-- PASTE YOUR UNIQUE CONTENT -->
+
+            <div class="flexContainer" id="mainContent">
+
+                <form action="./reservations.html" id="reservationForm">
+                    
+                    <div id="fullNameGroup" class="inputGroup flexContainer">
+
+                        <div id="fNameGroup">
+                            <label for="firstName">First Name</label>
+                            <input type="text" name="firstName" id="firstName" class="inputField">
+                        </div>
+
+                        <div id="lNameGroup">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" name="lastName" id="lastName" class="inputField">
+                        </div>
+
+                    </div>
+
+                    <div class="inputGroup">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" class="inputField" id="emailInput">
+                    </div>
+    
+                    <div class="inputGroup">
+                        <label for="guests">Number of Guests</label>
+                        <input type="number" name="guests" id="guests" min="1" max="10" class="inputField" id="guestInput">
+                    </div>
+                    
+                    <div id="dateTimeGroup" class="inputGroup">
+                        <div id="dateGroup">
+                            <label for="date">Date</label>
+                            <input type="date" name="date" id="date" class="inputField">
+                        </div>
+                        <div id="timeGroup">
+                            <label for="time">Time</label>
+                            <input type="time" name="time" id="time" class="inputField">
+                        </div>
+                    </div>
+                    
+                    <div class="inputGroup">
+                        <label for="notes">Special Requests</label>
+                        <textarea name="notes" id="notes" cols="60" rows="5" class="inputField"></textarea>
+                    </div>
+
+                    <input type="submit" class="btn">
+
+                </form>
+
+            </div>
+
+            <!-- END OF UNIQUE CONTENT -->
+        </main>
+
+
+        <footer>
+
+            <div class="flexContainer">
+
+                <div id="footerLogo">
+
+                    <p class="logo">BRGR</p>
+                
+                </div>
+
+                <div id = "address" class="footBox">
+
+                    <p>268 King St W <br> Toronto, ON M5V 1H8</p>
+                    <p>416-096-3366</p>
+
+                    <iframe loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ63HnC9E0K4gR7ele90x4Msw&key=AIzaSyCICoXNcqTvYr3RE3pgSwsf0e7JJEWIxaA"></iframe>
+
+                </div>
+
+                <div id = "hours" class="footBox">
+
+                    <p>Hours of Operation</p>
+
+                    <div id = "schedule">
+                        <p>Sunday - 11:00 AM to 11:00 PM</p>
+                        <p>Monday - 11:00 AM to 11:00 PM</p>
+                        <p>Tuesday - 11:00 AM to 11:00 PM</p>
+                        <p>Wednesday - 11:00 AM to 11:00 PM</p>
+                        <p>Thursday - 11:00 AM to 11:00 PM</p>
+                        <p>Friday - 11:00 AM to 11:00 PM</p>
+                        <p>Saturday - 11:00 AM to 11:00 PM</p>
+                    </div>
+
+                </div>
+
+                <div class="footBox">
+                    <p>Connect with Us</p>
+                    <a href="https://www.facebook.com" class="icon"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/" class="icon"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://www.twitter.com" class="icon"><i class="fab fa-twitter-square"></i></a>
+                </div>
+
+
+
+
+            </div>
+
+            <!-- FOOTER -->
+            <nav id = "bottomMenu" aria-label = "bottomMenu" class="footBox">
+
+                <ul class="flexContainer">
+
+                    <li class="bottomLink"><a href="#">Copyright</a></li>
+                    <li class="bottomLink"><a href="#" >Privacy</a></li>
+                    <li class="bottomLink"><a href="#" >Terms of Use</a></li>
+
+                </ul>
+
+            </nav>
+
+        </footer>
+
+    </body>
+
+</html>

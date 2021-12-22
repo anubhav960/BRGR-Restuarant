@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BRGR - Menu</title>
+    <meta name="description" content="Daily Specials">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/menu_styles.css">
+    <link rel="stylesheet" href="styles/global_styles.css">
+    <script type="text/javascript" src="js/menu_script.js"></script>
+    <script src="https://kit.fontawesome.com/f41eb439fa.js" crossorigin="anonymous"></script>
+
+    
+
+</head>
+
+<body>
+    <header>
+
+        <div id="headerLogo">
+
+            <a href="./index.html" id="headerLogo" class="logo">BRGR</a>
+
+        </div>
+
+        <nav id = "topMenu" aria-label="">
+
+            <!-- MAKE YOUR SCRIPT NAME MATCHES THE MENU -->
+
+            <ul class="flexContainer">
+                <li class="topLink"><a href="./menu.html">Menu</a></li>
+                <li class="topLink"><a href="./daily_specials.html">Daily Specials</a></li>
+                <li class="topLink"><a href="./reservations.html">Reservations</a></li>
+                <li class="topLink"><a href="./about_us.html">About Us</a></li>
+                <li class="topLink"><a href="./location.html">Location</a></li>
+                <li class="topLink"><a href="./careers.html">Careers</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+    <div id="pageTitle">
+
+        <h1>Menu</h1>
+
+        <p>Explore our tastefully crafted menu curated by renowned chefs.</p>
+
+    </div> 
+    <!--TABS-->
+    <main id="main">
+        <div class="tab">
+            <button class="tabLinks" onclick="openTab(event, 'Appetizers') " id="defaultOpen">Appetizers</button>
+            <button class="tabLinks" onclick="openTab(event, 'Salads')">Salads</button>
+            <button class="tabLinks" onclick="openTab(event, 'Burgers')">Burgers</button>
+            <button class="tabLinks" onclick="openTab(event, 'Desserts')">Desserts</button>
+            <button class="tabLinks" onclick="openTab(event, 'Drinks')">Drinks</button>
+            
+        </div>
+        <!--TAB content-->
+        <div class="tabContent gridContainer" id="Appetizers">
+            <div class="gridItems">
+                <div class="flexContainer">
+                    <a class="" href="#">Calamari</a>
+                    <p class="price">$18</p>
+                </div>
+                <p>Breaded squid, cajun seasoning, marinara sauce</p>
+            </div>
+            <div class="gridItems">
+                <div class="flexContainer">
+                    <a href="#">Spinach Artichoke Dip</a>
+                    <p class="price">$16</p>
+                </div>
+                <p>Cream cheese, spinach, four cheeses, spices, baked pita chips</p>
+            </div>
+            <div class="gridItems">
+                <div class="flexContainer">
+                    <a href="#">Antojitos</a>
+                    <p class="price">$14</p>
+                </div>
+                <p>Cheese, jalapeno, onion, red pepper, sour cream</p>
+            </div>
+            <div class="gridItems">
+                <img src="images/bruschetta.jpg" class="itemPic" alt="pic"/>
+            </div>
+            <div class="gridItems">
+                <div class="flexContainer">
+                    <a href="#">Bruschetta</a>
+                    <p class="price">$16</p>
+                </div>
+                <p>Italian bread, tomatoes, basil, olive oil</p>
+            </div>
+        </div>
+        <div class="tabContent gridContainer" id="Salads">
+            <div class="gridItems">
+                <div class="flexContainer">
+                    <a href="#">Chicken Caesar</a>
+                    <p class="price">$18</p>
+                </div>
+                <p>Romaine lettuce, croutons, caesar dressing, chicken</p>
+            </div>
+            <div class="gridItems">
+                <div class="flexContainer">
+                    <a href="#">Mediterranean</a>
+                    <p class="price">$14</p>
+                </div>
+                <p>Chickpeas, cucumber, red bell pepper, onion, kalamata olives, feta cheese</p>
+            </div>
+            <div class="gridItems">
+                <div class="flexContainer">
+                    <a href="#">Quinoa Salad</a>
+                    <p class="price">$18</p>
+                </div>
+                <p>Quinoa, chickpeas, cucumber, red bell pepper, parsely, olive oil</p>
+            </div>
+            <div class="gridItems">
+                <img src="images/cobb.jpg" class="itemPic" alt="pic"/>
+            </div>
+            <div class="gridItems">
+                <div class="flexContainer">
+                    <a href="#">Cobb</a>
+                    <p class="price">$16</p>
+                </div>
+                <p>Romaine lettuce, spinach, avocado, tomatoes, corn, hard boiled egg</p>
+            </div>
+        </div>
+        <div class="tabContent gridContainer1" id="Burgers">
+            <div class="gridItems1">
+                <div class="flexContainer">
+                    <a href="#">The Classic BRGR</a>
+                    <p class="price">$22</p>
+                </div>
+                <p>4oz 100% Canadian Sirloin burger, served with your choice of toppings.</p>
+            </div>
+            <div class="gridItems1">
+                <div class="flexContainer">
+                    <a href="#">The Double</a>
+                    <p class="price">$24</p>
+                </div>
+                <p>Two 4oz 100% Canadian Sirloin burger patties, served with your choice of toppings.</p>
+            </div>
+            <div class="gridItems1">
+                <div class="flexContainer">
+                    <a href="#">The Bacon Cheeseburger</a>
+                    <p class="price">$24</p>
+                </div>
+                <p>4oz 100% Canadian Sirloin burger, BBQ sauce, bacon, cheddar cheese, lettuce, tomatoes.</p>
+            </div>
+            <div class="gridItems1">
+                <img src="images/jolly.jpg" class="itemPic" alt="pic"/>
+            </div>
+            <div class="gridItems1">
+                <div class="flexContainer">
+                    <a href="#">The Jolly</a>
+                    <p class="price">$22</p>
+                </div>
+                <p>Turkey burger, gravy, cranberry sauce, stuffing, lettuce.</p>
+            </div>
+            <div class="gridItems1">
+                <div class="flexContainer">
+                    <a href="#">The Casanova</a>
+                    <p class="price">$24</p>
+                </div>
+                <p>4oz 100% Canadian Sirloin burger, brioche bun, bacon, tomatoes, Wisconsin cheese.</p>
+            </div>
+            <div class="gridItems1">
+                <div class="flexContainer">
+                    <a href="#">The Buttermilk Chicken Burger</a>
+                    <p class="price">$22</p>
+                </div>
+                <p>Buttermilk fried chicken, cheddar cheese, creamy coleslaw.</p>
+            </div>
+            <div class="gridItems1">
+                <div class="flexContainer">
+                    <a href="#">Buffalo burger</a>
+                    <p class="price">$24</p>
+                </div>
+                <p>4oz 100% Canadian Sirloin burger, cheddar cheese, lettuce, tomato, red onion.</p>
+            </div>
+            <div class="gridItems1">
+                <img src="images/pretzel.jpg" class="itemPic" alt="pic" />
+            </div>
+            <div class="gridItems1">
+                <div class="flexContainer">
+                    <a href="#">The Pretzel</a>
+                    <p class="price">$22</p>
+                </div>
+                <p>4oz 100% Canadian Sirloin burger, Pretzel bun, American cheese, dilled pickle.</p>
+            </div>
+        </div>
+        <div class="tabContent gridContainer" id="Desserts">
+            <div class="gridItems">
+                <div class="flexContainer">
+                    <a href="#">Creme Brulee</a>
+                    <p class="price">$12</p>
+                </div>
+                <p>Traditional creme brulee with yolks, cream and sugar</p>
+            </div>
+            <div class="gridItems">
+                <div class="flexContainer">
+                    <a href="#">Tiramisu</a>
+                    <p class="price">$12</p>
+                </div>
+                <p>Traditional tiramisu with layers of mascarpone cheese, biscuits and coffee</p>
+            </div>
+            <div class="gridItems">
+                <div class="flexContainer">
+                    <a href="#">Salted caramel brownies</a>
+                    <p class="price">$12</p>
+                </div>
+                <p>Rich, fudgy brownies, with a sweet and salty taste, topped with drizzled caramel and flaked salt</p>
+            </div>
+            <div class="gridItems">
+                <img src="images/cheese.jpg" class="itemPic" alt="pic"/>
+            </div>
+            <div class="gridItems">
+                <div class="flexContainer">
+                    <a href="#">Raspberry Cheesecake</a>
+                    <p class="price">$10</p>
+                </div>
+                <p>Goat cheese, brown sugar, Raspberries, graham cracker crust, lemon curd</p>
+            </div>
+        </div>
+        <div class="tabContent " id="Drinks">
+            <div class="flexContainer2">
+                <div class="">
+                    <img src="images/drink.jpg" class="itemPic2" alt="pic">
+                </div>
+                <div class="">
+                    <div class="flexContainer">
+                        <a href="#">Espresso Martini</a>
+                        <p class="price">$10</p>
+                    </div>
+                    <div class="flexContainer">
+                        <a href="#">Margarita</a>
+                        <p class="price">$10</p>
+                    </div>
+                    <div class="flexContainer">
+                        <a href="#">Cosmopolitan</a>
+                        <p class="price">$10</p>
+                    </div>
+                    <div class="flexContainer">
+                        <a href="#">Pina Colada</a>
+                        <p class="price">$10</p>
+                    </div>
+                    <div class="flexContainer">
+                        <a href="#">Chardonnay</a>
+                        <p class="price">$10</p>
+                    </div>
+                    <div class="flexContainer">
+                        <a href="#">Mojito</a>
+                        <p class="price">$10</p>
+                    </div>
+                    <div class="flexContainer">
+                        <a href="#">Merlot</a>
+                        <p class="price">$10</p>
+                    </div>
+                    <div class="flexContainer">
+                        <a href="#">Soda</a>
+                        <p class="price">$10</p>
+                    </div>
+                    <div class="flexContainer">
+                        <a href="#">Craft Beer</a>
+                        <p class="price">$10</p>
+                    </div>
+                </div>
+                <div class="">
+                    <img src="images/drink3.jpg" class="itemPic2" alt="pic">
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+
+        <div class="flexContainer">
+
+            <div id="footerLogo">
+
+                <p class="logo">BRGR</p>
+            
+            </div>
+
+            <div id = "address" class="footBox">
+
+                <p>268 King St W <br> Toronto, ON M5V 1H8</p>
+                <p>416-096-3366</p>
+
+                <iframe loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ63HnC9E0K4gR7ele90x4Msw&key=AIzaSyCICoXNcqTvYr3RE3pgSwsf0e7JJEWIxaA"></iframe>
+
+            </div>
+
+            <div id = "hours" class="footBox">
+
+                <p>Hours of Operation</p>
+
+                <div id = "schedule">
+                    <p>Sunday - 11:00 AM to 11:00 PM</p>
+                    <p>Monday - 11:00 AM to 11:00 PM</p>
+                    <p>Tuesday - 11:00 AM to 11:00 PM</p>
+                    <p>Wednesday - 11:00 AM to 11:00 PM</p>
+                    <p>Thursday - 11:00 AM to 11:00 PM</p>
+                    <p>Friday - 11:00 AM to 11:00 PM</p>
+                    <p>Saturday - 11:00 AM to 11:00 PM</p>
+                </div>
+
+            </div>
+
+            <div class="footBox">
+                <p>Connect with Us</p>
+                <a href="https://www.facebook.com" class="icon"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/" class="icon"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://www.twitter.com" class="icon"><i class="fab fa-twitter-square"></i></a>
+            </div>
+
+
+
+
+        </div>
+
+        <!-- FOOTER -->
+        <nav id = "bottomMenu" aria-label = "bottomMenu" class="footBox">
+
+            <ul class="flexContainer">
+
+                <li class="bottomLink"><a href="#">Copyright</a></li>
+                <li class="bottomLink"><a href="#" >Privacy</a></li>
+                <li class="bottomLink"><a href="#" >Terms of Use</a></li>
+
+            </ul>
+
+        </nav>
+
+    </footer>
+</body>

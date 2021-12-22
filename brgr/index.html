@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset = "utf-8">
+        <title>BRGR | Homepage</title>
+        <meta name="description" content="BRGR's Homepage">
+        <link rel="stylesheet" href="./styles/global_styles.css">
+        <link rel="stylesheet" href="./styles/index_styles.css">
+        <script src="https://kit.fontawesome.com/f41eb439fa.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width">
+
+    </head>
+    
+    <body>
+        
+        <header>
+
+            <div id="headerLogo">
+
+                <a href="./index.html" id="headerLogo" class="logo">BRGR</a>
+
+            </div>
+
+            <nav id = "topMenu" aria-label="">
+
+                <ul class="flexContainer">
+                    <li class="topLink"><a href="./menu.html">Menu</a></li>
+                    <li class="topLink"><a href="./daily_specials.html">Daily Specials</a></li>
+                    <li class="topLink"><a href="./reservations.html">Reservations</a></li>
+                    <li class="topLink"><a href="./about_us.html">About Us</a></li>
+                    <li class="topLink"><a href="./location.html">Location</a></li>
+                    <li class="topLink"><a href="./careers.html">Careers</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <main>
+            
+            <!-- <h1>BRGR </h1> -->
+
+            <section id = "holidaySpecials" class="flexContainer">
+
+            
+                <div class="messageBox">
+
+
+                    <div class="messageContent">
+                        <h2 class="boxTitle">Gather around this holiday season</h2>
+                        <p class="boxText">This winter, indulge in our exclusive holiday menu items</p>
+                        <a href="./menu.html" class="btn">View the Menu</a>
+                    </div>
+
+                    
+                </div>
+
+                <div class="pictureBox">
+                    <img src="./images/BurgerKnife.png" alt="A Burger with a knife sticking out the top.">
+                </div>
+
+
+            </section>
+
+
+            <section id = "eventBooking" class="flexContainer">
+
+            
+                <div class="messageBox">
+
+                    <div class="messageContent">
+                        <h2 class="boxTitle">Celebrate those big moments with us</h2>
+                        <p class="boxText">Book our dining room for your upcoming private events including receptions, birthdays or dinner parties.</p>
+                        <a href="./reservations.html" class="btn">Reserve Today</a>
+                        
+                    </div>
+
+                </div>
+
+                <div class="pictureBox">
+                    <img src="./images/Seating.png" alt="Looking down a fancy table">
+                </div>
+
+
+            </section>
+
+            <section id = "favouriteItems">
+
+                <h2>Explore some of our favourites</h2>
+
+                <div class="flexContainer">
+                    
+                    
+
+                    <div id="theJolly" class="favBurger">
+
+                        <img src="./images/Jolly.png" alt="A Classic Looking Burger" class="favPic">
+                        <h3>The Jolly</h3>
+                        <p>A festive take on the classic burger</p>
+
+                    </div>
+
+                    <div id="thePretzel" class="favBurger">
+
+                        <img src="./images/Pretzel.png" alt="A Burger in a Pretzel Fun" class="favPic"">
+                        <h3>The Pretzel</h3>
+                        <p>Two gourmet patties topped with fresh vegetables and a pretzel bun.</p>
+
+                    </div>
+
+                    <div id="theCasanova" class="favBurger">
+
+                        <img src="./images/Casanova.png" alt="A Gourmet Burger on a Sesame Seed Bun"  class="favPic">
+                        <h3>The Casanova</h3>
+                        <p>Made with Wisconsin cheese, this gourmet burger features onions, bacon, and a brioche bun.</p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="newsletter">
+
+                <h2>Join our newsletter</h2>
+
+                <p>Stay up to date with BRGR's latest promotions, menu items and exclusive events.</p>
+
+                <form action="POST" id="inputBar">
+                    <input type="text" name="email" id="email" value="Enter E-mail Address">
+                    <input type="button" value="Submit" class="btn">
+                </form>
+
+            </section>
+    
+        </main>
+
+        <footer>
+
+            <div class="flexContainer">
+
+                <div id="footerLogo">
+
+                    <p class="logo">BRGR</p>
+                
+                </div>
+
+                <div id = "address" class="footBox">
+
+                    <p>268 King St W <br> Toronto, ON M5V 1H8</p>
+                    <p>416-096-3366</p>
+
+                    <iframe loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ63HnC9E0K4gR7ele90x4Msw&key=AIzaSyCICoXNcqTvYr3RE3pgSwsf0e7JJEWIxaA"></iframe>
+
+                </div>
+
+                <div id = "hours" class="footBox">
+
+                    <p>Hours of Operation</p>
+
+                    <ul id = "schedule">
+                        <li><p>Sunday - 11:00 AM to 11:00 PM</p></li>
+                        <li><p>Monday - 11:00 AM to 11:00 PM</p></li>
+                        <li><p>Tuesday - 11:00 AM to 11:00 PM</p></li>
+                        <li><p>Wednesday - 11:00 AM to 11:00 PM</p></li>
+                        <li><p>Thursday - 11:00 AM to 11:00 PM</p></li>
+                        <li><p>Friday - 11:00 AM to 11:00 PM</p></li>
+                        <li><p>Saturday - 11:00 AM to 11:00 PM</p></li>
+                    </ul>
+
+                </div>
+
+                <div class="footBox">
+                    <p>Connect with Us</p>
+                    <a href="https://www.facebook.com" class="icon"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/" class="icon"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://www.twitter.com" class="icon"><i class="fab fa-twitter-square"></i></a>
+                </div>
+
+
+
+            </div>
+
+
+            <nav id = "bottomMenu" aria-label = "bottomMenu" class="footBox">
+
+                <ul class="flexContainer">
+
+                    <li class="bottomLink"><a href="#">Copyright</a></li>
+                    <li class="bottomLink"><a href="#" >Privacy</a></li>
+                    <li class="bottomLink"><a href="#" >Terms of Use</a></li>
+
+                </ul>
+
+            </nav>
+
+        </footer>
+
+    </body>
+
+
+</html>

@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Roboto:wght@300&display=swap');
+
+html {
+  box-sizing:border-box;
+  text-decoration: none ;
+}
+*, *::before, *::after {
+  box-sizing:inherit;
+  text-decoration: none;
+}
+body {
+  font:normal 1em/1.2;
+  margin: 0;
+  font-size: 20px;
+  padding-right: 3em;
+  padding-left: 3em;
+  font-family: 'Roboto' , sans-serif;
+  font-weight: 300;
+  line-height: 2em;
+  
+}
+h1 {
+  font-size: 26px;
+  font-family: 'Italiana' , serif;
+  font-weight: 700;
+}
+.tabLinks{
+  font-size: 26px;
+  font-family: 'Italiana' , serif;
+}
+.tabContent a{
+  font-size: 26px;
+  font-family: 'Italiana' , serif;
+  font-weight: 600;
+}
+.tabContent p{
+  font-size: 20px;
+  font-family: 'Roboto' , sans-serif;
+}
+.pageTitle{
+  text-align: center;
+}
+/* Style the tab */
+#main{
+padding: 2em;
+}
+.tabLinks {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  font-weight: 600 ;
+}
+.tabContent .gridItems a{
+  color: black;
+}
+.tabContent .gridItems1 a{
+  color: black;
+}
+.tabContent .flexContainer a{
+  color: black;
+}
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  text-decoration: underline;
+  text-decoration-color: #1C3F74;
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 0.25em;
+}
+
+/* Style the tab content */
+.tabContent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+
+}
+ul{
+  list-style-type: none;
+}
+.drinks{
+  font-size: 26px;
+  font-family: 'Italiana' , serif;
+  font-weight: 600;
+  text-align: center;  
+}
+#Drinks{
+  line-height: 3em;
+}
+
+.itemPic{
+  max-height: 500px;
+  max-width: auto;
+}
+.itemPic2{
+  max-width: auto;
+  max-height: 540px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*ITEMS*/
+.gridContainer{
+  padding: 2em;
+  display:grid;
+  grid-template-columns:2fr 2fr 2fr;
+  grid-template-rows:200px 500px;
+  grid-template-areas: "item1 item2 item3"
+                      "item4 item4 item5";
+  column-gap:1.2em;
+  row-gap:1.5em;
+}
+.gridItems:first-child {
+  grid-area:item1;
+}
+.gridItems:nth-child(2) {
+  grid-area:item2;
+}
+.gridItems:nth-child(3) {
+  grid-area:item3;
+}
+.gridItems:nth-child(4) {
+  grid-area:item4;
+}
+.gridItems:nth-child(5) {
+  grid-area:item5;
+}
+/*.gridItems:last-child {
+  grid-area:item6;
+}*/
+
+.gridContainer1{
+  padding: 2em;
+  display:grid;
+  grid-template-columns:2fr 2fr 2fr;
+  grid-template-rows:200px 500px
+  200px 500px;
+  grid-template-areas: "item1 item2 item3"
+                      "item4 item4 item5"
+                      "item6 item7 item8"
+                      "item9 item9 item10";
+  column-gap:1.5em;
+  row-gap:2.5em;
+}
+.gridItems1:first-child {
+  grid-area:item1;
+}
+.gridItems1:nth-child(2) {
+  grid-area:item2;
+}
+.gridItems1:nth-child(3) {
+  grid-area:item3;
+}
+.gridItems1:nth-child(4) {
+  grid-area:item4;
+}
+.gridItems1:nth-child(5) {
+  grid-area:item5;
+}
+.gridItems1:nth-child(6) {
+  grid-area:item6;
+}
+.gridItems1:nth-child(7) {
+  grid-area:item7;
+}
+.gridItems:nth-child(8) {
+  grid-area:item8;
+}
+.gridItems1:nth-child(9) {
+  grid-area:item9;
+}
+.gridItems1:last-child {
+  grid-area:item10;
+}
+
+/*End of ITEMS*/
+/*.gridContainerD{
+  padding: 2em;
+  display:grid;
+  grid-template-columns:2fr 2fr;
+  grid-template-rows:200px 500px;
+  grid-template-areas: "item1 item2"
+                      ;
+  column-gap:1.5em;
+  row-gap:2.5em;
+}
+.gridItemsD:first-child {
+  grid-area:item1;
+}
+.gridItemsD:last-child {
+  grid-area:item2;
+}*/
+
+/*TABS*/
+.tab{
+  display:grid;
+  grid-template-columns:2fr 2fr 2fr 2fr 2fr;
+  grid-template-rows:50px;
+  grid-template-areas: "item1 item2 item3 item4 item5";
+  padding: 1em;
+}
+.tabLinks:first-child {
+  grid-area:item1;
+}
+.tabLinks:nth-child(2) {
+  grid-area:item2;
+}
+.tabLinks:nth-child(3) {
+  grid-area:item3;
+}
+.tabLinks:nth-child(4) {
+  grid-area:item4;
+}
+.tabLinks:last-child {
+  grid-area:item5;
+}
+/*.gridItems{
+  vertical-align: middle;
+}*/
+/*End of TABS*/
+
+
+.flexContainer{
+  display:flex ;
+  flex-flow:row wrap;
+  justify-content: space-between;
+}
+.price {
+  padding-right: 1.5em;
+}
+p {
+  margin: 0;
+}
+.flexContainer2{
+  display:flex ;
+  flex-flow:row wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+img{
+  padding: 10px;
+  background-color: #1C3F74;
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+

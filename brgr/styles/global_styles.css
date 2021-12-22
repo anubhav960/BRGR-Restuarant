@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Kelly+Slab&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+html {
+
+    box-sizing: border-box;
+    
+}
+
+*, *::before, *::after {
+
+    box-sizing: inherit;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1, h2, h3 {
+
+    font-family: 'Italiana', serif;
+    font-size: 48px;
+}
+
+
+p {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+
+}
+
+
+
+body {
+
+    margin: 0;
+    padding: 0; 
+
+}
+
+
+.flexContainer {
+
+    display: flex;
+    flex-flow: row wrap; 
+
+}
+
+
+.btn, .btn:visited{
+
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    background-color: #1C3F74;
+    border-radius: 43.5px;
+    width: 220px;
+    padding: 20px 35px;
+    border: none;
+    text-decoration: none;
+
+}
+
+
+
+.btn:hover, .btn:active {
+
+    background-color: #112c53;
+
+}
+
+
+/* Header Styles  */
+
+header {
+
+    margin: 0;
+    background-color: #1C3F74;
+    text-align: center;
+
+}
+
+
+.logo{
+
+    display: inline-block;
+    font-family: 'Kelly Slab', cursive;
+    color: #EECE5C;
+    font-size: 26px;
+    text-decoration: none;
+    border: 3px solid #EECE5C !important;
+    padding: 5px;
+    margin-top: 1em;
+
+}
+
+#topMenu ul {
+
+    margin: 0;
+    padding: 38px;;
+
+}
+
+#topMenu li {
+
+    display: inline-block;
+    
+}
+
+#topMenu a, #topMenu a:visited {
+
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 100;
+
+}
+
+#topMenu a:hover, #topMenu a:active {
+
+    color: #EECE5C;
+
+}
+
+#topMenu .flexContainer {
+
+    justify-content: space-around;
+
+}
+
+
+/* Title Section Styles */
+
+#pageTitle{
+
+    text-align: center;
+    padding: 7em;
+    background-color: #d4dbe5;
+}
+
+
+#pageTitle h1{
+
+    margin: 0 0 1em;
+    padding: 0;
+    font-size: 48px;
+    
+}
+
+#pageTitle p{
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+
+
+}
+
+
+/* Footer Styles  */
+
+footer {
+
+    background-color: #1C3F74;
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+
+ }
+
+
+ footer .flexContainer {
+    
+    justify-content: space-evenly;
+    
+ }
+
+
+ #footerLogo {
+    
+    align-self: center;
+
+ }
+
+
+#footerLogo .logo {
+
+    font-size: 36px;
+    margin: 0;
+    align-self: center;
+
+}
+
+#schedule {
+
+    padding-left: 0;
+
+}
+
+
+#schedule p {
+
+    margin: 0;
+
+}
+
+#schedule li {
+
+    list-style-type: none;
+
+}
+
+
+#address iframe {
+
+    width: 260px;
+    height: 220px;
+    margin-bottom: 1em;
+    border: 3px solid white;
+
+}
+
+
+.footBox {
+
+    padding-top: 2em ;
+
+}
+
+
+.icon, .icon:visited {
+
+    width: 30px;
+    height: 30px;
+
+}
+
+
+.icon:hover, .icon:active {
+
+    color: #EECE5C;
+
+}
+
+
+.icon + .icon {
+
+    margin-left: .5em;
+
+}
+
+
+#bottomMenu {
+
+    text-align: center;
+    padding: 0;
+
+}
+
+
+#bottomMenu ul {
+
+    margin: 0;
+    padding: 1em;
+
+}
+
+
+#bottomMenu li {
+
+    display: inline-block;
+    
+
+}
+
+
+.bottomLink + .bottomLink {
+
+    margin-left: 4em;
+
+}
+
+
+.bottomLink a, .bottomLink a:visited {
+
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+
+}
+
+
+.bottomLink a:hover, .bottomLink a:active {
+
+    color: #EECE5C;
+
+}
+
+
+.icon {
+
+    color: white;
+    font-size: 30px
+}
+
+
+.icon + .icon {
+
+    margin-left: .5em;
+
+}
